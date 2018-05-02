@@ -1,17 +1,86 @@
 /*Removes any prexisting padding or marginal space from the html and body elements.*/
 
-html body {
+body, div, h1, h3 {
 	margin: 0;
 	padding: 0;
-	/*Remove this background-color! It is here to make sure that the css and html are linked.*/
-	background-color: #5abaf3;
 }
-
-/*Delete everything below this line! */
 
 h1 {
-	text-align: center;
-	padding-top: 50px;
-	color: white;
+	text-align: left;
+	padding-left: 50px;
 	font-size: 100px;
+	text-transform: uppercase;
 }
+
+h3 {
+	font-size: 40px;
+	padding-left: 50px;
+}
+
+p {
+	font-size: 22px;
+	line-height: 1.5;
+}
+
+.container {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.section1 {
+	background-image: url(https://tr1.cbsistatic.com/hub/i/r/2015/07/10/3a7e39f3-391f-4507-ab36-a2034890d268/resize/770x/b8a6a601a0cfc6a1d81b90e97d122636/fig-a-7-6.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 400px;
+	color: purple;
+	padding: 20px 0;
+	position: relative;
+}
+
+.headers {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.section2 {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.section2 p img {
+	width: 250px;
+	height: auto;
+	float: right;
+	padding-left: 35px;
+}
+
+.half {
+	width: 40%;
+	display: inline-block;
+	height: 300px;
+	padding: 25px 25px;
+}
+
+.section3 {
+	background-color: beige;
+}
+
+.section3 img {
+	display: block;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+
+
+
+
+
